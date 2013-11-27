@@ -15,3 +15,19 @@ article {
 }
 
 p { font-size: 18px }
+
+#menu {
+  list-style: none;
+  font-family: 'Patua One', cursive;
+}
+
+#menu:before,
+#menu:after {
+  content: '';
+  clear: both;
+}
+
+#menu li {
+  float: left;
+  padding: 4px;
+}

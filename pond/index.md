@@ -3,7 +3,6 @@ layout: site
 title: Pond
 ---
 
-<h1>Pond</h1>
-<p>
-  Amet soluta velit temporibus blanditiis nisi necessitatibus veniam nemo quod architecto aspernatur sunt quibusdam eligendi. Neque illum labore officiis suscipit voluptatum. Hic omnis nisi ratione amet laboriosam optio, consequuntur nesciunt!
-</p>
+# Pond
+
+Pond attempts to be an oversimpliflied wrapper on top of GPG allowing secure and metadata free communication between several peers
