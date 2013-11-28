@@ -12,3 +12,5 @@ server broadcasting messages to ohter ponds.
 Every message is an anonymous GPG message traveling in plain text. All the real
 work is responsibility of the client that will be in charge of attempting to
 decrypt each of the messages but only show the ones that are really for you.
+
+![](/img/pond.jpg)
