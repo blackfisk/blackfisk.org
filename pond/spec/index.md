@@ -12,8 +12,8 @@ title: Pond spec
 
 ### send
 
-A pretty wrapper for gpg encrpyted message. The use of --armor and -R is recomended
-to use anonymous recipient (use -R insted of -r to especify the email) and send
+A pretty wrapper for gpg encrypted messages. The use of --armor and -R is recomended
+to use anonymous recipient (use -R instead of -r to specify the email) and send
 it to a given pond.
 
 ### fetch
@@ -24,10 +24,10 @@ Only shows the messages that are correctly decrypted.
 ## Pond server
 
 Attempts to solve the possible metadata exchange in mail communications. Instead
-of using mail protocols each message is sent to a pond server which will
+of using mail protocols, each message is sent to a pond server which will
 broadcast the same GPG encrypted message to the other ponds.
 
-The message can only be decrypted when it reaches their destination hoping for
+The message can only be decrypted when it reaches its destination hoping for
 an unknown amount of ponds.
 
 ### Message
@@ -40,14 +40,14 @@ email)
 
 #### GET /
 
-* Returns an json array of the stored GPG encrypted message. Each message shall live 2 days
-  until is purged.
+* Returns a json array of the stored GPG encrypted message. Each message shall live 2 days
+  until it is purged.
 
 ### Write Messages
 
 #### POST /
 
-* Adds the body of the request a message to be broadcasted to the other ponds
+* The body of the request is the message to be broadcasted to the other ponds
   and stored for reading. The server must handle message duplication applying
   a salt to the message for future checking.
 
