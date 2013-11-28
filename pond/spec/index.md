@@ -18,12 +18,14 @@ an unknown amount of ponds.
 ### Message
 
 A message is a plain text GPG encrypted text.
+It's recommended to use anonymous recipient (use -R insted of -r to especify the
+email)
 
 ### Read Messages
 
 GET /
 
-* Returns all the stored GPG encrypted message. Each message shall live 2 days
+* Returns an json array of the stored GPG encrypted message. Each message shall live 2 days
   until is purged.
 
 ### Write Messages
@@ -38,3 +40,5 @@ POST /
 
 A friend is another pond server. Normally just an IP or a hostname. The
 exact message will be POST'ed to that friend once for each friend.
+
+![](/img/pond.jpg)
