@@ -3,7 +3,11 @@ layout: site
 title: Alexandria
 ---
 
-<h1>Alexandria</h1>
-<p>
-  Amet soluta velit temporibus blanditiis nisi necessitatibus veniam nemo quod architecto aspernatur sunt quibusdam eligendi. Neque illum labore officiis suscipit voluptatum. Hic omnis nisi ratione amet laboriosam optio, consequuntur nesciunt!
-</p>
+# Alexandria
+
+Alexandria attempts to be an project to easily accomplish a cellphone-powered
+source of information for people who can't access a computer.
+
+## Hardware
+
+* [Umtrx](https://code.google.com/p/umtrx/)
