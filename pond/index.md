@@ -5,7 +5,7 @@ title: Pond
 
 # Pond
 
-[github.com/blackfisk/pond](github.com/blackfisk/pond)
+## [github.com/blackfisk/pond](github.com/blackfisk/pond)
 
 Pond attempts to be an oversimpliflied wrapper on top of GPG allowing secure and metadata free communication between several peer.
 
