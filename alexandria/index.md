@@ -15,9 +15,13 @@ It's inspired in this video and plans to be an open source alternative to:
 
 ## Software
 
-* [Open BTS](http://wush.net/trac/rangepublic/wiki/BuildInstallRun)
+<ul class="resources">
+  <li><a href="http://wush.net/trac/rangepublic/wiki/BuildInstallRun">Open BTS</a></li>
+</ul>
 
 ## Hardware
 
-* [Umtrx](https://code.google.com/p/umtrx/)
-* [Raspberry Pi](http://www.raspberrypi.org/)
+<ul class="resources">
+  <li><a href="https://code.google.com/p/umtrx/">Umtrx</a></li>
+  <li><a href="http://www.raspberrypi.org/">Raspberry Pi</a></li>
+</ul>

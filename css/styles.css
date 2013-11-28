@@ -8,6 +8,7 @@ body {
   height: 100%;
   background-color: #222;
   border-top: 30px solid rgba(255,255,255,0.1);
+  padding-bottom: 80px;
 }
 
 h1 { font-size: 6em; }
@@ -67,8 +68,8 @@ p {
 }
 
 #menu li a:hover {
-  color: white;
-  border-color: white;
+  color: #EFED9B;
+  border-color: #EFED9B;
   background-color: rgba(255,255,255,0.1);
 }
 
@@ -87,4 +88,31 @@ p a:hover {
 
 img, iframe {
   border: 30px solid rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+}
+
+.resources {
+  padding: 0;
+  margin: 0;
+}
+
+.resources li {
+  list-style: none;
+}
+
+.resources li a {
+  text-decoration: none;
+  color: gray;
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-top: 4px solid gray;
+  border-bottom: 4px solid gray;
+}
+
+.resources li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #EFED9B;
+  border-color: #EFED9B;
 }
