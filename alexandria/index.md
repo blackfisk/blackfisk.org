@@ -11,7 +11,9 @@ source of information for people who can't access a computer.
 It's inspired in this video and plans to be an open source alternative to:
 [Wikipedia Zero](http://wikimediafoundation.org/wiki/Wikipedia_Zero)
 
-<iframe width="854" height="510" src="//www.youtube.com/embed/GCcKgrzbix4" frameborder="0" allowfullscreen></iframe>
+<div class="embed-container">
+  <iframe src="//www.youtube.com/embed/GCcKgrzbix4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Software
 

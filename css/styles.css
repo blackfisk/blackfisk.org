@@ -86,11 +86,6 @@ p a:hover {
   text-decoration: underline;
 }
 
-img, iframe {
-  border: 30px solid rgba(255, 255, 255, 0.1);
-  margin-top: 50px;
-}
-
 .resources {
   padding: 0;
   margin: 0;
@@ -115,4 +110,26 @@ img, iframe {
   background-color: rgba(255, 255, 255, 0.1);
   color: #EFED9B;
   border-color: #EFED9B;
+}
+
+/* Responsive Embeds */
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+  border: 30px solid rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
